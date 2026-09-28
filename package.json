@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/pickidem",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pick identifiers and idem tokens for idempotent workflows.",
+  "bin": {
+    "pickidem": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/pickidem.git"
+  },
+  "homepage": "https://theworker02.github.io/pickidem/",
+  "keywords": [
+    "pick",
+    "idem",
+    "id",
+    "cli",
+    "toolkit"
+  ]
+}
